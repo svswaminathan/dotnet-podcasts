@@ -13,7 +13,7 @@ var deployIngestion = true
 1. Get the HTTP API application details:
 
     ```cli
-    az containerapp show -g "$RESOURCE_GROUP_NAME" -n podcastapi
+    az containerapp show -g "$RESOURCE_GROUP_NAME" -n podcastapica
     ```
 
 2. Look for the application's address in the `fqdn` field in the `ingress` config section:
