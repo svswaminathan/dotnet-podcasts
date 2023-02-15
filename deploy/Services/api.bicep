@@ -20,7 +20,7 @@ var sqlServerHostname = environment().suffixes.sqlServerHostname
 var podcastDbConnectionString = 'Server=tcp:${serverName}${sqlServerHostname},1433;Initial Catalog=${sqlDBName};Persist Security Info=False;User ID=${administratorLogin};Password=${administratorLoginPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
 var storageEnv = environment().suffixes.storage
 var imagesStorage = 'https://${storageAccountName}.blob.${storageEnv}/covers/'
-var deployIngestion = true
+var deployIngestion = false
 
 resource sqlServer 'Microsoft.Sql/servers@2021-11-01' = {
   name: serverName
