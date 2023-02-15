@@ -166,25 +166,25 @@ Happy Deployments!
 ---
 ## Azure Container Apps Demo
 
-To run the Azure Container Apps demo that we showcased at .NET Conf, checkout the [Azure Container Apps](images/demos/azurecontainerapps).
+To run the Azure Container Apps demo that we showcased at .NET Conf, checkout the [Azure Container Apps](demos/azurecontainerapps).
 
 ## Individual Deployment Guides and Configurations
 
 ### ASP.NET Core Backend Services
 
 1. .NET Podcast API:
-    - [Run Backend Services Locally](src/Services/Podcasts/Podcast.API#run-backend-locally)
-    - [Podcast images deployment to Azure Blob storage](deploy/Images)
+    - [Run Backend Services Locally](../src/Services/Podcasts/Podcast.API#run-backend-locally)
+    - [Podcast images deployment to Azure Blob storage](../deploy/Images)
 
 1. Listen Together Mode Backend Services:
-    - [Run Locally](src/Services/ListenTogether/ListenTogether.Hub)
+    - [Run Locally](../src/Services/ListenTogether/ListenTogether.Hub)
 
 ### .NET MAUI Mobile & Desktop Apps
 
-1. [Mobile & Desktop App Configuration](src/Mobile)
+1. [Mobile & Desktop App Configuration](../src/Mobile)
 
-1. [Mobile & Desktop App with Blazor](src/MobileBlazor)
+1. [Mobile & Desktop App with Blazor](../src/MobileBlazor)
 
 ### ASP.NET Core Website & Blazor Web App
 
-- [Deploy to Azure](src/Web#deploy-to-azure)
+- [Deploy to Azure](../src/Web#deploy-to-azure)
